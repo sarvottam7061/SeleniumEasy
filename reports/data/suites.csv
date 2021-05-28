@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri May 28 11:44:40 IST 2021","Fri May 28 11:44:44 IST 2021","3757","","Home Test Page Selenium Easy","","","","Go to the Input Forms",""
-"passed","Fri May 28 11:44:44 IST 2021","Fri May 28 11:44:47 IST 2021","3097","","Home Test Page Selenium Easy","","","","Fill Input Form & Submit",""
-"failed","Thu May 27 18:38:52 IST 2021","Thu May 27 18:38:52 IST 2021","1","","Home Test Page Selenium Easy","","","","""before all"" hook:  Visit Website for ""Go to the Input Forms""",""
