@@ -10,7 +10,11 @@
     "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos",
     "pretest": "npm run allure:clear",
     "test": "npm run cy:run || npm run posttest",
-    "posttest": "npm run allure:report"
+    "posttest": "npm run allure:report",
+    "tests": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run tests -- --headed",
+    "chromeTest": "npm run tests -- --browser chrome",
+    "mocha":"npm run tests -- --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +25,8 @@
     "prettier": "^2.3.0"
   },
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.5.1"
+    "@shelex/cypress-allure-plugin": "^2.5.1",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2"
   }
 }

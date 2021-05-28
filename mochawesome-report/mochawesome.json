@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-05-28T19:20:59.321Z",
+    "end": "2021-05-28T19:21:24.190Z",
+    "duration": 24869,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "07705e22-446f-4a15-b4f4-cd5ea3a78ba5",
+      "title": "",
+      "fullFile": "cypress/integration/examples/Simple.spec.js",
+      "file": "cypress/integration/examples/Simple.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4d60bebd-52ee-4689-84f4-edac9f910456",
+          "title": "Home Test Page Selenium Easy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Go to the Input Forms",
+              "fullTitle": "Home Test Page Selenium Easy Go to the Input Forms",
+              "timedOut": null,
+              "duration": 15691,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#at-cv-lightbox-close').click();\ncy.get('.dropdown-toggle').contains('Input Forms').click();\ncy.get('.open > .dropdown-menu > :nth-child(5) > a').click();",
+              "err": {},
+              "uuid": "0995adc7-9f82-48b3-a091-6f6835f91575",
+              "parentUUID": "4d60bebd-52ee-4689-84f4-edac9f910456",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Fill Input Form & Submit",
+              "fullTitle": "Home Test Page Selenium Easy Fill Input Form & Submit",
+              "timedOut": null,
+              "duration": 8973,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.form-control[placeholder=\"First Name\"]').type('rahul');\ncy.get('.form-control[placeholder=\"Last Name\"]').type('jain');\ncy.get('.form-control[placeholder=\"E-Mail Address\"]').type('rahul@gmail.com');\ncy.get('.form-control[placeholder=\"(845)555-1212\"]').type('7894546123');\ncy.get('.form-control[placeholder=\"Address\"]').type('howara kolkata');\ncy.get('.form-control[placeholder=\"city\"]').type('kolkata');\ncy.get('.form-control.selectpicker').select('Hawaii').should('have.value', 'Hawaii');\ncy.get('.form-control[placeholder=\"Zip Code\"]').type('23545');\ncy.get('.form-control[placeholder=\"Project Description\"]').type(' my descripyion is this');\ncy.get(':nth-child(1) > label > input').click();\ncy.get('.btn.btn-default').click();",
+              "err": {},
+              "uuid": "83ea97c1-01ad-4b63-a706-6ece7e540872",
+              "parentUUID": "4d60bebd-52ee-4689-84f4-edac9f910456",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0995adc7-9f82-48b3-a091-6f6835f91575",
+            "83ea97c1-01ad-4b63-a706-6ece7e540872"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 24664,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

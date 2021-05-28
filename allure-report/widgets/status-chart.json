@@ -1,20 +1,20 @@
 [ {
-  "uid" : "88b157d0b760e591",
-  "name" : "Fill Input Form & Submit",
+  "uid" : "9ac10d8d6e188784",
+  "name" : "Go to the Input Forms",
   "time" : {
-    "start" : 1622195540192,
-    "stop" : 1622195543293,
-    "duration" : 3101
+    "start" : 1622225865854,
+    "stop" : 1622225868593,
+    "duration" : 2739
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c88958fc285a32d5",
-  "name" : "Go to the Input Forms",
+  "uid" : "c1418b401c8d2089",
+  "name" : "Fill Input Form & Submit",
   "time" : {
-    "start" : 1622195537854,
-    "stop" : 1622195540182,
-    "duration" : 2328
+    "start" : 1622225868619,
+    "stop" : 1622225873345,
+    "duration" : 4726
   },
   "status" : "passed",
   "severity" : "normal"

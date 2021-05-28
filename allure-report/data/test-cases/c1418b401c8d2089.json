@@ -1,12 +1,12 @@
 {
-  "uid" : "88b157d0b760e591",
+  "uid" : "c1418b401c8d2089",
   "name" : "Fill Input Form & Submit",
   "fullName" : "Fill Input Form & Submit",
   "historyId" : "1c88850130ed2d5f72857d00fe48936b",
   "time" : {
-    "start" : 1622195540192,
-    "stop" : 1622195543293,
-    "duration" : 3101
+    "start" : 1622225868619,
+    "stop" : 1622225873345,
+    "duration" : 4726
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit (\"  \")",
       "time" : {
-        "start" : 1622195528953,
-        "stop" : 1622195537852,
-        "duration" : 8899
+        "start" : 1622225853554,
+        "stop" : 1622225865847,
+        "duration" : 12293
       },
       "status" : "passed",
       "steps" : [ ],
@@ -27,13 +27,28 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
-      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=20085866&t=pageview&_s=1&dl=https://www.seleniumeasy.com/test/&ul=en-us&de=UTF-8&dt=Selenium Easy - Best Demo website to practice Selenium Webdriver Online&sd=24-bit&sr=1920x1080&vp=983x643&je=0&_u=IEBAAEABAAAAAC~&jid=1592432207&gjid=1021091014&cid=1229175344.1622195537&tid=UA-46729791-2&_gid=2091881980.1622195537&_r=1&_slc=1&z=1638299115",
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=444154229&t=pageview&_s=1&dl=https://www.seleniumeasy.com/test/&ul=en-us&de=UTF-8&dt=Selenium Easy - Best Demo website to practice Selenium Webdriver Online&sd=24-bit&sr=1920x1080&vp=983x643&je=0&_u=IEBAAEABAAAAAC~&jid=1958974157&gjid=298668799&cid=639320167.1622225864&tid=UA-46729791-2&_gid=112630893.1622225864&_r=1&_slc=1&z=2044966614",
       "time" : {
-        "start" : 1622195537852,
-        "stop" : 1622195537852,
+        "start" : 1622225865844,
+        "stop" : 1622225865845,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-46729791-2&cid=639320167.1622225864&jid=1958974157&gjid=298668799&_gid=112630893.1622225864&_u=IEBAAEAAAAAAAC~&z=699708825",
+      "time" : {
+        "start" : 1622225865846,
+        "stop" : 1622225865846,
         "duration" : 0
       },
       "status" : "passed",
@@ -42,39 +57,24 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-46729791-2&cid=1229175344.1622195537&jid=1592432207&gjid=1021091014&_gid=2091881980.1622195537&_u=IEBAAEAAAAAAAC~&z=710509457",
-      "time" : {
-        "start" : 1622195537852,
-        "stop" : 1622195537852,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 3,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "get (\".form-control[placeholder=\"First Name\"]\")",
       "time" : {
-        "start" : 1622195540222,
-        "stop" : 1622195540229,
-        "duration" : 7
+        "start" : 1622225868684,
+        "stop" : 1622225868697,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -82,14 +82,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\"rahul\")",
       "time" : {
-        "start" : 1622195540230,
-        "stop" : 1622195540488,
-        "duration" : 258
+        "start" : 1622225868697,
+        "stop" : 1622225869077,
+        "duration" : 380
       },
       "status" : "passed",
       "steps" : [ ],
@@ -97,14 +97,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control[placeholder=\"Last Name\"]\")",
       "time" : {
-        "start" : 1622195540488,
-        "stop" : 1622195540492,
-        "duration" : 4
+        "start" : 1622225869078,
+        "stop" : 1622225869088,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -112,73 +112,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\"jain\")",
       "time" : {
-        "start" : 1622195540492,
-        "stop" : 1622195540711,
-        "duration" : 219
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get (\".form-control[placeholder=\"E-Mail Address\"]\")",
-      "time" : {
-        "start" : 1622195540711,
-        "stop" : 1622195540716,
-        "duration" : 5
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type (\"rahul@gmail.com\")",
-      "time" : {
-        "start" : 1622195540716,
-        "stop" : 1622195541127,
-        "duration" : 411
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get (\".form-control[placeholder=\"(845)555-1212\"]\")",
-      "time" : {
-        "start" : 1622195541127,
-        "stop" : 1622195541131,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "type (\"7894546123\")",
-      "time" : {
-        "start" : 1622195541131,
-        "stop" : 1622195541439,
+        "start" : 1622225869088,
+        "stop" : 1622225869396,
         "duration" : 308
       },
       "status" : "passed",
@@ -187,14 +127,74 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".form-control[placeholder=\"E-Mail Address\"]\")",
+      "time" : {
+        "start" : 1622225869396,
+        "stop" : 1622225869410,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"rahul@gmail.com\")",
+      "time" : {
+        "start" : 1622225869410,
+        "stop" : 1622225870075,
+        "duration" : 665
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".form-control[placeholder=\"(845)555-1212\"]\")",
+      "time" : {
+        "start" : 1622225870075,
+        "stop" : 1622225870083,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"7894546123\")",
+      "time" : {
+        "start" : 1622225870083,
+        "stop" : 1622225870542,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control[placeholder=\"Address\"]\")",
       "time" : {
-        "start" : 1622195541440,
-        "stop" : 1622195541443,
-        "duration" : 3
+        "start" : 1622225870542,
+        "stop" : 1622225870553,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -202,14 +202,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\"howara kolkata\")",
       "time" : {
-        "start" : 1622195541443,
-        "stop" : 1622195541833,
-        "duration" : 390
+        "start" : 1622225870553,
+        "stop" : 1622225871146,
+        "duration" : 593
       },
       "status" : "passed",
       "steps" : [ ],
@@ -217,14 +217,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control[placeholder=\"city\"]\")",
       "time" : {
-        "start" : 1622195541833,
-        "stop" : 1622195541836,
-        "duration" : 3
+        "start" : 1622225871146,
+        "stop" : 1622225871158,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -232,14 +232,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\"kolkata\")",
       "time" : {
-        "start" : 1622195541837,
-        "stop" : 1622195542105,
-        "duration" : 268
+        "start" : 1622225871158,
+        "stop" : 1622225871536,
+        "duration" : 378
       },
       "status" : "passed",
       "steps" : [ ],
@@ -247,14 +247,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control.selectpicker\")",
       "time" : {
-        "start" : 1622195542105,
-        "stop" : 1622195542108,
-        "duration" : 3
+        "start" : 1622225871536,
+        "stop" : 1622225871543,
+        "duration" : 7
       },
       "status" : "passed",
       "steps" : [ ],
@@ -262,14 +262,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "select (\"Hawaii\")",
       "time" : {
-        "start" : 1622195542108,
-        "stop" : 1622195542269,
-        "duration" : 161
+        "start" : 1622225871543,
+        "stop" : 1622225871777,
+        "duration" : 234
       },
       "status" : "passed",
       "steps" : [ ],
@@ -277,13 +277,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "expected **<select.form-control.selectpicker>** to have value **Hawaii** assert",
       "time" : {
-        "start" : 1622195542269,
-        "stop" : 1622195542269,
+        "start" : 1622225871776,
+        "stop" : 1622225871776,
         "duration" : 0
       },
       "status" : "passed",
@@ -292,14 +292,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control[placeholder=\"Zip Code\"]\")",
       "time" : {
-        "start" : 1622195542269,
-        "stop" : 1622195542273,
-        "duration" : 4
+        "start" : 1622225871777,
+        "stop" : 1622225871785,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -307,14 +307,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\"23545\")",
       "time" : {
-        "start" : 1622195542273,
-        "stop" : 1622195542509,
-        "duration" : 236
+        "start" : 1622225871785,
+        "stop" : 1622225872114,
+        "duration" : 329
       },
       "status" : "passed",
       "steps" : [ ],
@@ -322,14 +322,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".form-control[placeholder=\"Project Description\"]\")",
       "time" : {
-        "start" : 1622195542509,
-        "stop" : 1622195542513,
-        "duration" : 4
+        "start" : 1622225872114,
+        "stop" : 1622225872123,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -337,14 +337,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "type (\" my descripyion is this\")",
       "time" : {
-        "start" : 1622195542513,
-        "stop" : 1622195543071,
-        "duration" : 558
+        "start" : 1622225872123,
+        "stop" : 1622225872956,
+        "duration" : 833
       },
       "status" : "passed",
       "steps" : [ ],
@@ -352,14 +352,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\":nth-child(1) > label > input\")",
       "time" : {
-        "start" : 1622195543071,
-        "stop" : 1622195543075,
-        "duration" : 4
+        "start" : 1622225872956,
+        "stop" : 1622225872968,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -367,14 +367,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1622195543075,
-        "stop" : 1622195543176,
-        "duration" : 101
+        "start" : 1622225872968,
+        "stop" : 1622225873100,
+        "duration" : 132
       },
       "status" : "passed",
       "steps" : [ ],
@@ -382,14 +382,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "get (\".btn.btn-default\")",
       "time" : {
-        "start" : 1622195543176,
-        "stop" : 1622195543180,
-        "duration" : 4
+        "start" : 1622225873100,
+        "stop" : 1622225873111,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -397,14 +397,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1622195543180,
-        "stop" : 1622195543293,
-        "duration" : 113
+        "start" : 1622225873112,
+        "stop" : 1622225873344,
+        "duration" : 232
       },
       "status" : "passed",
       "steps" : [ ],
@@ -412,13 +412,13 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     }, {
       "name" : "POST https://www.seleniumeasy.com/test/input-form-demo.html",
       "time" : {
-        "start" : 1622195543293,
-        "stop" : 1622195543293,
+        "start" : 1622225873344,
+        "stop" : 1622225873344,
         "duration" : 0
       },
       "status" : "passed",
@@ -427,15 +427,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 24,
     "hasContent" : true,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -455,6 +455,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "88b157d0b760e591.json",
+  "source" : "c1418b401c8d2089.json",
   "parameterValues" : [ ]
 }
