@@ -1,0 +1,31 @@
+[ {
+  "uid" : "19e18a784b64d630",
+  "name" : "Go to the Input Forms",
+  "time" : {
+    "start" : 1622182480335,
+    "stop" : 1622182484092,
+    "duration" : 3757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b1d87f4e81a8fd4",
+  "name" : "Fill Input Form & Submit",
+  "time" : {
+    "start" : 1622182484101,
+    "stop" : 1622182487198,
+    "duration" : 3097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d5c3f11604374e8",
+  "name" : "\"before all\" hook:  Visit Website for \"Go to the Input Forms\"",
+  "time" : {
+    "start" : 1622120932107,
+    "stop" : 1622120932108,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
