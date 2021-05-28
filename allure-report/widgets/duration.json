@@ -1,0 +1,21 @@
+[ {
+  "uid" : "88b157d0b760e591",
+  "name" : "Fill Input Form & Submit",
+  "time" : {
+    "start" : 1622195540192,
+    "stop" : 1622195543293,
+    "duration" : 3101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c88958fc285a32d5",
+  "name" : "Go to the Input Forms",
+  "time" : {
+    "start" : 1622195537854,
+    "stop" : 1622195540182,
+    "duration" : 2328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

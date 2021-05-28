@@ -4,4 +4,4 @@ WORKDIR /app
 COPY . /app
 RUN npm install
 RUN $(npm bin)/cypress verify
-ENTRYPOINT ["npm", "run", "cy:run"]
+ENTRYPOINT ["npm", "test"]

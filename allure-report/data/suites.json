@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Home Test Page Selenium Easy",
+    "children" : [ {
+      "name" : "Go to the Input Forms",
+      "uid" : "c88958fc285a32d5",
+      "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622195537854,
+        "stop" : 1622195540182,
+        "duration" : 2328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fill Input Form & Submit",
+      "uid" : "88b157d0b760e591",
+      "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622195540192,
+        "stop" : 1622195543293,
+        "duration" : 3101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "453d11560fbfea47baa2a39e8f1beb50"
+  } ]
+}

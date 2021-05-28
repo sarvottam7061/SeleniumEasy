@@ -3,13 +3,6 @@
     "chromeWebSecurity":false,
     "defaultCommandTimeout": 8000,
     "pageLoadTimeout": 60000,
-    "video": false,
+    "video": false
 
-    "env": {
-        "allureResultsPath": "someFolder/results",
-
-        "tmsPrefix": "https://url-to-bug-tracking-system/task-",
-        "issuePrefix": "https://url-to-tms/tests/caseId-"
-
-    }
 }
