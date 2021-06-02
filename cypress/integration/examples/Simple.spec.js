@@ -13,7 +13,7 @@ describe('Home Test Page Selenium Easy', function()  {
 
 
     it('Fill Input Form & Submit', function()  {
-    cy.get('.form-control[placeholder="First Name"]').type('rahul')
+    cy.get('.form-control[placeholder="First Name"]').type('aman')
     cy.get('.form-control[placeholder="Last Name"]').type('jain')
     cy.get('.form-control[placeholder="E-Mail Address"]').type('rahul@gmail.com')
     cy.get('.form-control[placeholder="(845)555-1212"]').type('7894546123')
