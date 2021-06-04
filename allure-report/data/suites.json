@@ -5,26 +5,26 @@
     "name" : "Home Test Page Selenium Easy",
     "children" : [ {
       "name" : "Go to the Input Forms",
-      "uid" : "9ac10d8d6e188784",
+      "uid" : "634ec1b37267f532",
       "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
       "status" : "passed",
       "time" : {
-        "start" : 1622225865854,
-        "stop" : 1622225868593,
-        "duration" : 2739
+        "start" : 1622810814628,
+        "stop" : 1622810817785,
+        "duration" : 3157
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Fill Input Form & Submit",
-      "uid" : "c1418b401c8d2089",
+      "uid" : "25dd99a5dfe26386",
       "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
       "status" : "passed",
       "time" : {
-        "start" : 1622225868619,
-        "stop" : 1622225873345,
-        "duration" : 4726
+        "start" : 1622810817916,
+        "stop" : 1622810826534,
+        "duration" : 8618
       },
       "flaky" : false,
       "newFailed" : false,

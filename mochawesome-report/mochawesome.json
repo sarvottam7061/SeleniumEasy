@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-06-02T06:42:48.458Z",
-    "end": "2021-06-02T06:43:00.517Z",
-    "duration": 12059,
+    "start": "2021-06-03T17:27:34.049Z",
+    "end": "2021-06-03T17:28:08.613Z",
+    "duration": 34564,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ee1330f6-b0a8-4ec7-b0a9-cba32b4e31ad",
+      "uuid": "93cb546f-7214-4040-9117-e9a9a96e58ec",
       "title": "",
       "fullFile": "cypress/integration/examples/Simple.spec.js",
       "file": "cypress/integration/examples/Simple.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f2c392da-7357-49ef-bd21-0428b8cc3af1",
+          "uuid": "13460450-933b-4a5f-8080-b7870938d453",
           "title": "Home Test Page Selenium Easy",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Go to the Input Forms",
               "fullTitle": "Home Test Page Selenium Easy Go to the Input Forms",
               "timedOut": null,
-              "duration": 8786,
+              "duration": 27547,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.get('#at-cv-lightbox-close').click();\ncy.get('.dropdown-toggle').contains('Input Forms').click();\ncy.get('.open > .dropdown-menu > :nth-child(5) > a').click();",
               "err": {},
-              "uuid": "676a7149-46c7-4dbc-a246-2558d1a4e4f9",
-              "parentUUID": "f2c392da-7357-49ef-bd21-0428b8cc3af1",
+              "uuid": "caeaa2ce-c61a-4654-935f-9daf01d76ca3",
+              "parentUUID": "13460450-933b-4a5f-8080-b7870938d453",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Fill Input Form & Submit",
               "fullTitle": "Home Test Page Selenium Easy Fill Input Form & Submit",
               "timedOut": null,
-              "duration": 3245,
+              "duration": 6906,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.get('.form-control[placeholder=\"First Name\"]').type('aman');\ncy.get('.form-control[placeholder=\"Last Name\"]').type('jain');\ncy.get('.form-control[placeholder=\"E-Mail Address\"]').type('rahul@gmail.com');\ncy.get('.form-control[placeholder=\"(845)555-1212\"]').type('7894546123');\ncy.get('.form-control[placeholder=\"Address\"]').type('howara kolkata');\ncy.get('.form-control[placeholder=\"city\"]').type('kolkata');\ncy.get('.form-control.selectpicker').select('Hawaii').should('have.value', 'Hawaii');\ncy.get('.form-control[placeholder=\"Zip Code\"]').type('23545');\ncy.get('.form-control[placeholder=\"Project Description\"]').type(' my descripyion is this');\ncy.get(':nth-child(1) > label > input').click();\ncy.get('.btn.btn-default').click();",
               "err": {},
-              "uuid": "cf911f50-0af1-46b3-99dd-bd84fe4fc3cb",
-              "parentUUID": "f2c392da-7357-49ef-bd21-0428b8cc3af1",
+              "uuid": "f99970d9-128b-49b3-b373-ea73f3f2f186",
+              "parentUUID": "13460450-933b-4a5f-8080-b7870938d453",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "676a7149-46c7-4dbc-a246-2558d1a4e4f9",
-            "cf911f50-0af1-46b3-99dd-bd84fe4fc3cb"
+            "caeaa2ce-c61a-4654-935f-9daf01d76ca3",
+            "f99970d9-128b-49b3-b373-ea73f3f2f186"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12031,
+          "duration": 34453,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

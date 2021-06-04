@@ -1,12 +1,12 @@
 {
-  "uid" : "9ac10d8d6e188784",
+  "uid" : "634ec1b37267f532",
   "name" : "Go to the Input Forms",
   "fullName" : "Go to the Input Forms",
   "historyId" : "730c68b9efa6291451e262550bd2c678",
   "time" : {
-    "start" : 1622225865854,
-    "stop" : 1622225868593,
-    "duration" : 2739
+    "start" : 1622810814628,
+    "stop" : 1622810817785,
+    "duration" : 3157
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,185 +17,185 @@
     "steps" : [ {
       "name" : "visit (\"  \")",
       "time" : {
-        "start" : 1622225853554,
-        "stop" : 1622225865847,
-        "duration" : 12293
+        "start" : 1622810803160,
+        "stop" : 1622810814619,
+        "duration" : 11459
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=444154229&t=pageview&_s=1&dl=https://www.seleniumeasy.com/test/&ul=en-us&de=UTF-8&dt=Selenium Easy - Best Demo website to practice Selenium Webdriver Online&sd=24-bit&sr=1920x1080&vp=983x643&je=0&_u=IEBAAEABAAAAAC~&jid=1958974157&gjid=298668799&cid=639320167.1622225864&tid=UA-46729791-2&_gid=112630893.1622225864&_r=1&_slc=1&z=2044966614",
-      "time" : {
-        "start" : 1622225865844,
-        "stop" : 1622225865845,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-46729791-2&cid=639320167.1622225864&jid=1958974157&gjid=298668799&_gid=112630893.1622225864&_u=IEBAAEAAAAAAAC~&z=699708825",
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j90&a=157746710&t=pageview&_s=1&dl=https://www.seleniumeasy.com/test/&ul=en-us&de=UTF-8&dt=Selenium Easy - Best Demo website to practice Selenium Webdriver Online&sd=24-bit&sr=1280x1024&vp=985x645&je=0&_u=IEBAAEABAAAAAC~&jid=49935027&gjid=798698824&cid=1513183095.1622810813&tid=UA-46729791-2&_gid=1481528733.1622810813&_r=1&_slc=1&z=146458199",
       "time" : {
-        "start" : 1622225865846,
-        "stop" : 1622225865846,
+        "start" : 1622810814617,
+        "stop" : 1622810814617,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-46729791-2&cid=1513183095.1622810813&jid=49935027&gjid=798698824&_gid=1481528733.1622810813&_u=IEBAAEAAAAAAAC~&z=1995840950",
+      "time" : {
+        "start" : 1622810814619,
+        "stop" : 1622810814619,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "get (\"#at-cv-lightbox-close\")",
       "time" : {
-        "start" : 1622225865914,
-        "stop" : 1622225865966,
+        "start" : 1622810814658,
+        "stop" : 1622810814774,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1622810814774,
+        "stop" : 1622810815118,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\".dropdown-toggle\")",
+      "time" : {
+        "start" : 1622810815118,
+        "stop" : 1622810815250,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "contains (\"Input Forms\")",
+      "time" : {
+        "start" : 1622810815250,
+        "stop" : 1622810815302,
         "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1622225865966,
-        "stop" : 1622225866179,
-        "duration" : 213
+        "start" : 1622810815302,
+        "stop" : 1622810815792,
+        "duration" : 490
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "get (\".dropdown-toggle\")",
-      "time" : {
-        "start" : 1622225866180,
-        "stop" : 1622225866287,
-        "duration" : 107
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "contains (\"Input Forms\")",
-      "time" : {
-        "start" : 1622225866287,
-        "stop" : 1622225866333,
-        "duration" : 46
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1622225866333,
-        "stop" : 1622225866575,
-        "duration" : 242
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "get (\".open > .dropdown-menu > :nth-child(5) > a\")",
       "time" : {
-        "start" : 1622225866575,
-        "stop" : 1622225866597,
-        "duration" : 22
+        "start" : 1622810815792,
+        "stop" : 1622810815832,
+        "duration" : 40
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1622225866597,
-        "stop" : 1622225866792,
-        "duration" : 195
+        "start" : 1622810815832,
+        "stop" : 1622810816295,
+        "duration" : 463
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1622225866791,
-        "stop" : 1622225866791,
+        "start" : 1622810816294,
+        "stop" : 1622810816294,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -215,6 +215,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9ac10d8d6e188784.json",
+  "source" : "634ec1b37267f532.json",
   "parameterValues" : [ ]
 }
