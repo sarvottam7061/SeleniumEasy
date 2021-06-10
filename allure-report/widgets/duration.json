@@ -1,20 +1,30 @@
 [ {
-  "uid" : "634ec1b37267f532",
-  "name" : "Go to the Input Forms",
+  "uid" : "f81dfd7b66a95bf2",
+  "name" : "My FirstTest case",
   "time" : {
-    "start" : 1622810814628,
-    "stop" : 1622810817785,
-    "duration" : 3157
+    "start" : 1623317990388,
+    "stop" : 1623318002138,
+    "duration" : 11750
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "25dd99a5dfe26386",
+  "uid" : "88e38c6a6a29b099",
   "name" : "Fill Input Form & Submit",
   "time" : {
-    "start" : 1622810817916,
-    "stop" : 1622810826534,
-    "duration" : 8618
+    "start" : 1623317979138,
+    "stop" : 1623317983731,
+    "duration" : 4593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab2ecf1df7adbea",
+  "name" : "Go to the Input Forms",
+  "time" : {
+    "start" : 1623317976248,
+    "stop" : 1623317979106,
+    "duration" : 2858
   },
   "status" : "passed",
   "severity" : "normal"

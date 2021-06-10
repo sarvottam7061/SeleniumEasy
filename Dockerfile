@@ -22,9 +22,12 @@ ENTRYPOINT ["npm", "run", "cy:run" ]
 
 #docker run -it sarvo7061/seleniumeasy
 
-#docker run -it -v %cd%/allure-results/:/app/allure-results/  sarvo7061/seleniumeasy
+#docker run -it -v %cd%/allure-results/:/app/allure-results/ sarvo7061/seleniumeasy
 # -it          = interactive terminal
 # -v %cd%:/e2e = map current folder to /e2e inside the container
 #-w /e2e      = set working directy to /e2e
 
 #docker run -it --entrypoint /bin/bash sarvo7061/seleniumeasy
+
+#allure generate .\allure-results -o .\allure-report --clean
+#allure open .

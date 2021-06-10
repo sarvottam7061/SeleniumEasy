@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Jun 04 18:16:54 IST 2021","Fri Jun 04 18:16:57 IST 2021","3157","","Home Test Page Selenium Easy","","","","Go to the Input Forms",""
-"passed","Fri Jun 04 18:16:57 IST 2021","Fri Jun 04 18:17:06 IST 2021","8618","","Home Test Page Selenium Easy","","","","Fill Input Form & Submit",""
+"passed","Thu Jun 10 15:09:50 IST 2021","Thu Jun 10 15:10:02 IST 2021","11750","","My Second Test Suite","","","","My FirstTest case",""
+"passed","Thu Jun 10 15:09:39 IST 2021","Thu Jun 10 15:09:43 IST 2021","4593","","Home Test Page Selenium Easy","","","","Fill Input Form & Submit",""
+"passed","Thu Jun 10 15:09:36 IST 2021","Thu Jun 10 15:09:39 IST 2021","2858","","Home Test Page Selenium Easy","","","","Go to the Input Forms",""

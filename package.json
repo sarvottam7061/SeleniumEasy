@@ -14,13 +14,13 @@
     "tests": "node_modules\\.bin\\cypress run",
     "headTest": "npm run tests -- --headed",
     "chromeTest": "npm run tests -- --browser chrome",
-    "mocha":"npm run tests -- --reporter mochawesome"
+    "mocha": "npm run tests -- --reporter mochawesome"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "allure-commandline": "^2.13.8",
-    "cypress": "^7.4.0",
+    "cypress": "^7.5.0",
     "cypress-xpath": "^1.6.2",
     "prettier": "^2.3.0"
   },

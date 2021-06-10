@@ -2,6 +2,15 @@
     "baseUrl":"https://www.seleniumeasy.com/test/",
     "chromeWebSecurity":false,
     "defaultCommandTimeout": 8000,
+    "env": {
+        "url": "https://rahulshettyacademy.com"
+      },
+      "testFiles": "**/*.js",
+
+      "retries": {
+        
+        "runMode": 1
+      },
     "pageLoadTimeout": 60000,
     "video": false
 

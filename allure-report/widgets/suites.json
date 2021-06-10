@@ -1,5 +1,5 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "453d11560fbfea47baa2a39e8f1beb50",
     "name" : "Home Test Page Selenium Easy",
@@ -10,6 +10,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "c57048b8e24f0ea9ccaedd548ac0e41d",
+    "name" : "My Second Test Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

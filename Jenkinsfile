@@ -1,51 +1,58 @@
-pipeline { 
+pipeline {
+   agent any
+   stages {
+      stage('clone our git repository') {
+          steps {
+            
+              bat("""
+             
+              git clone https://github.com/sarvottam7061/SeleniumEasy.git
 
-    environment { 
+              echo "pulled the code"
+              """)
 
-        registry = "sarvo7061/seleniumeasy" 
-
-        registryCredential = 'dockerhub_id' 
-
-        dockerImage = '' 
-
-    }
-
-    agent any 
-
-    stages { 
-
-        stage('Cloning our Git') { 
-
-            steps { 
-
-                git 'https://github.com/sarvottam7061/SeleniumEasy.git' 
-
-            }
-
-        } 
-
-        stage('Build Image') {
+          }
+      }
+        stage('Build our Image') {
             steps {
                 
-                bat "docker build -t='sarvo7061/seleniumeasy' ."
+                bat ("""
+                cd SeleniumEasy
+                docker build -t sarvo7061/seleniumeasy .
+                
+                """)
             }
         }
 
- 
-    stage('build and test') {
+        stage('Deploy our image with some test ') {
+            steps {
+                
+                  bat ("""
+                cd SeleniumEasy
+               docker run -v /mochawesome-report/:/app/mochawesome-report/ sarvo7061/seleniumeasy
+                
+                """)
+            }
+        }
+                stage('publishing report' ) {
+            steps {
+                
+                
+                publishHTML (target : [allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'SeleniumEasy/mochawesome-report',
+                reportFiles: '',
+                 reportName: 'My Reports',
+                 reportTitles: 'The Report'])
+                
+            
+            }
+        }
+       
 
+         }
 
-      steps {
-        bat "docker run -it='sarvo7061/seleniumeasy'"
-
-
-        
+    
       }
-    }
-  
-
-    }
-
-}
-
 
