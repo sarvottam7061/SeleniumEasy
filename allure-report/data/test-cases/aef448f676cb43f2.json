@@ -1,12 +1,12 @@
 {
-  "uid" : "f81dfd7b66a95bf2",
+  "uid" : "aef448f676cb43f2",
   "name" : "My FirstTest case",
   "fullName" : "My FirstTest case",
   "historyId" : "0e2d627c4218c9c6f544c0b2b88f25f1",
   "time" : {
-    "start" : 1623317990388,
-    "stop" : 1623318002138,
-    "duration" : 11750
+    "start" : 1623328097352,
+    "stop" : 1623328109016,
+    "duration" : 11664
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "fixture (\"example\")",
       "time" : {
-        "start" : 1623317990368,
-        "stop" : 1623317990383,
-        "duration" : 15
+        "start" : 1623328097335,
+        "stop" : 1623328097347,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -42,9 +42,9 @@
     "steps" : [ {
       "name" : "visit (\"https://rahulshettyacademy.com/angularpractice/\")",
       "time" : {
-        "start" : 1623317990402,
-        "stop" : 1623317991798,
-        "duration" : 1396
+        "start" : 1623328097362,
+        "stop" : 1623328099124,
+        "duration" : 1762
       },
       "status" : "passed",
       "steps" : [ ],
@@ -57,9 +57,9 @@
     }, {
       "name" : "get (\"input[name=\"name\"]:nth-child(2)\")",
       "time" : {
-        "start" : 1623317991798,
-        "stop" : 1623317991837,
-        "duration" : 39
+        "start" : 1623328099124,
+        "stop" : 1623328099168,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -72,9 +72,9 @@
     }, {
       "name" : "type (\"bob\")",
       "time" : {
-        "start" : 1623317991837,
-        "stop" : 1623317992092,
-        "duration" : 255
+        "start" : 1623328099168,
+        "stop" : 1623328099427,
+        "duration" : 259
       },
       "status" : "passed",
       "steps" : [ ],
@@ -87,9 +87,9 @@
     }, {
       "name" : "get (\"select\")",
       "time" : {
-        "start" : 1623317992092,
-        "stop" : 1623317992107,
-        "duration" : 15
+        "start" : 1623328099427,
+        "stop" : 1623328099440,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -102,9 +102,9 @@
     }, {
       "name" : "select (\"Female\")",
       "time" : {
-        "start" : 1623317992107,
-        "stop" : 1623317992303,
-        "duration" : 196
+        "start" : 1623328099440,
+        "stop" : 1623328099607,
+        "duration" : 167
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,9 +117,9 @@
     }, {
       "name" : "get (\":nth-child(4) > .ng-untouched\")",
       "time" : {
-        "start" : 1623317992303,
-        "stop" : 1623317992336,
-        "duration" : 33
+        "start" : 1623328099607,
+        "stop" : 1623328099639,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -132,8 +132,8 @@
     }, {
       "name" : "expected **<input.ng-untouched.ng-pristine.ng-valid>** to have value **bob** assert",
       "time" : {
-        "start" : 1623317992336,
-        "stop" : 1623317992336,
+        "start" : 1623328099639,
+        "stop" : 1623328099639,
         "duration" : 0
       },
       "status" : "passed",
@@ -147,9 +147,9 @@
     }, {
       "name" : "get (\"input[name=\"name\"]:nth-child(2)\")",
       "time" : {
-        "start" : 1623317992336,
-        "stop" : 1623317992368,
-        "duration" : 32
+        "start" : 1623328099639,
+        "stop" : 1623328099672,
+        "duration" : 33
       },
       "status" : "passed",
       "steps" : [ ],
@@ -162,8 +162,8 @@
     }, {
       "name" : "expected **<input.form-control.ng-dirty.ng-valid.ng-touched>** to have attribute **minlength** with the value **'2'** assert",
       "time" : {
-        "start" : 1623317992368,
-        "stop" : 1623317992368,
+        "start" : 1623328099672,
+        "stop" : 1623328099672,
         "duration" : 0
       },
       "status" : "passed",
@@ -177,9 +177,9 @@
     }, {
       "name" : "get (\"#inlineRadio3\")",
       "time" : {
-        "start" : 1623317992368,
-        "stop" : 1623317992403,
-        "duration" : 35
+        "start" : 1623328099672,
+        "stop" : 1623328099698,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
@@ -192,8 +192,8 @@
     }, {
       "name" : "expected **<input#inlineRadio3.form-check-input>** to be **disabled** assert",
       "time" : {
-        "start" : 1623317992403,
-        "stop" : 1623317992403,
+        "start" : 1623328099698,
+        "stop" : 1623328099698,
         "duration" : 0
       },
       "status" : "passed",
@@ -207,9 +207,9 @@
     }, {
       "name" : "get (\":nth-child(2) > .nav-link\")",
       "time" : {
-        "start" : 1623317992403,
-        "stop" : 1623317992423,
-        "duration" : 20
+        "start" : 1623328099698,
+        "stop" : 1623328099710,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -222,9 +222,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1623317992423,
-        "stop" : 1623317992581,
-        "duration" : 158
+        "start" : 1623328099710,
+        "stop" : 1623328099827,
+        "duration" : 117
       },
       "status" : "passed",
       "steps" : [ ],
@@ -237,8 +237,8 @@
     }, {
       "name" : "--waiting for new page to load-- page load",
       "time" : {
-        "start" : 1623317992581,
-        "stop" : 1623317992581,
+        "start" : 1623328099827,
+        "stop" : 1623328099827,
         "duration" : 0
       },
       "status" : "passed",
@@ -252,17 +252,17 @@
     }, {
       "name" : "selectProduct (\"Blackberry\")",
       "time" : {
-        "start" : 1623317992581,
-        "stop" : 1623317995453,
-        "duration" : 2872
+        "start" : 1623328099827,
+        "stop" : 1623328103014,
+        "duration" : 3187
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get (\"h4.card-title\")",
         "time" : {
-          "start" : 1623317995109,
-          "stop" : 1623317995166,
-          "duration" : 57
+          "start" : 1623328102790,
+          "stop" : 1623328102818,
+          "duration" : 28
         },
         "status" : "passed",
         "steps" : [ ],
@@ -275,9 +275,9 @@
       }, {
         "name" : "get (\"button.btn.btn-info\")",
         "time" : {
-          "start" : 1623317995170,
-          "stop" : 1623317995213,
-          "duration" : 43
+          "start" : 1623328102820,
+          "stop" : 1623328102851,
+          "duration" : 31
         },
         "status" : "passed",
         "steps" : [ ],
@@ -290,9 +290,9 @@
       }, {
         "name" : "eq (\"3\")",
         "time" : {
-          "start" : 1623317995213,
-          "stop" : 1623317995233,
-          "duration" : 20
+          "start" : 1623328102851,
+          "stop" : 1623328102864,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -305,9 +305,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1623317995233,
-          "stop" : 1623317995452,
-          "duration" : 219
+          "start" : 1623328102864,
+          "stop" : 1623328103014,
+          "duration" : 150
         },
         "status" : "passed",
         "steps" : [ ],
@@ -327,17 +327,17 @@
     }, {
       "name" : "selectProduct (\"Nokia Edge\")",
       "time" : {
-        "start" : 1623317995453,
-        "stop" : 1623317995776,
-        "duration" : 323
+        "start" : 1623328103014,
+        "stop" : 1623328103209,
+        "duration" : 195
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get (\"h4.card-title\")",
         "time" : {
-          "start" : 1623317995454,
-          "stop" : 1623317995516,
-          "duration" : 62
+          "start" : 1623328103014,
+          "stop" : 1623328103049,
+          "duration" : 35
         },
         "status" : "passed",
         "steps" : [ ],
@@ -350,9 +350,9 @@
       }, {
         "name" : "get (\"button.btn.btn-info\")",
         "time" : {
-          "start" : 1623317995519,
-          "stop" : 1623317995577,
-          "duration" : 58
+          "start" : 1623328103052,
+          "stop" : 1623328103082,
+          "duration" : 30
         },
         "status" : "passed",
         "steps" : [ ],
@@ -365,9 +365,9 @@
       }, {
         "name" : "eq (\"2\")",
         "time" : {
-          "start" : 1623317995577,
-          "stop" : 1623317995593,
-          "duration" : 16
+          "start" : 1623328103082,
+          "stop" : 1623328103093,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
@@ -380,9 +380,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1623317995593,
-          "stop" : 1623317995776,
-          "duration" : 183
+          "start" : 1623328103093,
+          "stop" : 1623328103209,
+          "duration" : 116
         },
         "status" : "passed",
         "steps" : [ ],
@@ -402,9 +402,9 @@
     }, {
       "name" : "get (\"#navbarResponsive > .navbar-nav > .nav-item > .nav-link\")",
       "time" : {
-        "start" : 1623317995776,
-        "stop" : 1623317995797,
-        "duration" : 21
+        "start" : 1623328103210,
+        "stop" : 1623328103221,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -417,9 +417,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1623317995797,
-        "stop" : 1623317995985,
-        "duration" : 188
+        "start" : 1623328103221,
+        "stop" : 1623328103337,
+        "duration" : 116
       },
       "status" : "passed",
       "steps" : [ ],
@@ -432,9 +432,9 @@
     }, {
       "name" : "get (\"tr td:nth-child(4) strong\")",
       "time" : {
-        "start" : 1623317995985,
-        "stop" : 1623317996039,
-        "duration" : 54
+        "start" : 1623328103337,
+        "stop" : 1623328103350,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -447,9 +447,9 @@
     }, {
       "name" : "log (\"115000\")",
       "time" : {
-        "start" : 1623317996046,
-        "stop" : 1623317996056,
-        "duration" : 10
+        "start" : 1623328103352,
+        "stop" : 1623328103355,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -462,9 +462,9 @@
     }, {
       "name" : "get (\"h3 strong\")",
       "time" : {
-        "start" : 1623317996056,
-        "stop" : 1623317996087,
-        "duration" : 31
+        "start" : 1623328103356,
+        "stop" : 1623328103366,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -477,8 +477,8 @@
     }, {
       "name" : "expected **115000** to equal **115000** assert",
       "time" : {
-        "start" : 1623317996106,
-        "stop" : 1623317996106,
+        "start" : 1623328103373,
+        "stop" : 1623328103373,
         "duration" : 0
       },
       "status" : "passed",
@@ -492,9 +492,9 @@
     }, {
       "name" : "contains (\"Checkout\")",
       "time" : {
-        "start" : 1623317996106,
-        "stop" : 1623317996147,
-        "duration" : 41
+        "start" : 1623328103373,
+        "stop" : 1623328103393,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -507,9 +507,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1623317996147,
-        "stop" : 1623317996290,
-        "duration" : 143
+        "start" : 1623328103393,
+        "stop" : 1623328103515,
+        "duration" : 122
       },
       "status" : "passed",
       "steps" : [ ],
@@ -522,9 +522,9 @@
     }, {
       "name" : "get (\"#country\")",
       "time" : {
-        "start" : 1623317996290,
-        "stop" : 1623317996305,
-        "duration" : 15
+        "start" : 1623328103515,
+        "stop" : 1623328103524,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -537,9 +537,9 @@
     }, {
       "name" : "type (\"India\")",
       "time" : {
-        "start" : 1623317996305,
-        "stop" : 1623317996568,
-        "duration" : 263
+        "start" : 1623328103524,
+        "stop" : 1623328103756,
+        "duration" : 232
       },
       "status" : "passed",
       "steps" : [ ],
@@ -552,9 +552,9 @@
     }, {
       "name" : "get (\".suggestions > ul > li > a\")",
       "time" : {
-        "start" : 1623317996568,
-        "stop" : 1623318001467,
-        "duration" : 4899
+        "start" : 1623328103756,
+        "stop" : 1623328108646,
+        "duration" : 4890
       },
       "status" : "passed",
       "steps" : [ ],
@@ -567,9 +567,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1623318001468,
-        "stop" : 1623318001624,
-        "duration" : 156
+        "start" : 1623328108646,
+        "stop" : 1623328108749,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -582,9 +582,9 @@
     }, {
       "name" : "get (\"#checkbox2\")",
       "time" : {
-        "start" : 1623318001624,
-        "stop" : 1623318001662,
-        "duration" : 38
+        "start" : 1623328108749,
+        "stop" : 1623328108759,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -597,9 +597,9 @@
     }, {
       "name" : "click (\"[object Object]\")",
       "time" : {
-        "start" : 1623318001662,
-        "stop" : 1623318001830,
-        "duration" : 168
+        "start" : 1623328108760,
+        "stop" : 1623328108832,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -612,9 +612,9 @@
     }, {
       "name" : "get (\"input[type=\"submit\"]\")",
       "time" : {
-        "start" : 1623318001830,
-        "stop" : 1623318001879,
-        "duration" : 49
+        "start" : 1623328108832,
+        "stop" : 1623328108849,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -627,9 +627,9 @@
     }, {
       "name" : "click",
       "time" : {
-        "start" : 1623318001880,
-        "stop" : 1623318002087,
-        "duration" : 207
+        "start" : 1623328108849,
+        "stop" : 1623328108983,
+        "duration" : 134
       },
       "status" : "passed",
       "steps" : [ ],
@@ -642,9 +642,9 @@
     }, {
       "name" : "get (\".alert\")",
       "time" : {
-        "start" : 1623318002087,
-        "stop" : 1623318002123,
-        "duration" : 36
+        "start" : 1623328108983,
+        "stop" : 1623328109008,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -657,8 +657,8 @@
     }, {
       "name" : "expected **true** to be true assert",
       "time" : {
-        "start" : 1623318002136,
-        "stop" : 1623318002136,
+        "start" : 1623328109015,
+        "stop" : 1623328109015,
         "duration" : 0
       },
       "status" : "passed",
@@ -695,6 +695,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f81dfd7b66a95bf2.json",
+  "source" : "aef448f676cb43f2.json",
   "parameterValues" : [ ]
 }

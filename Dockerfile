@@ -18,16 +18,16 @@ RUN $(npm bin)/cypress verify
 ENTRYPOINT ["npm", "run", "cy:run" ]
 
 
-#docker build -t sarvo7061/seleniumeasy . 
+#docker build -t ccypressautomation . 
 
-#docker run -it sarvo7061/seleniumeasy
+#docker run -it cypressautomation
 
-#docker run -it -v %cd%/allure-results/:/app/allure-results/ sarvo7061/seleniumeasy
+#docker run -it -v %cd%/allure-results/:/app/allure-results/ cypressautomation
 # -it          = interactive terminal
 # -v %cd%:/e2e = map current folder to /e2e inside the container
 #-w /e2e      = set working directy to /e2e
 
-#docker run -it --entrypoint /bin/bash sarvo7061/seleniumeasy
+#docker run -it --entrypoint /bin/bash cypressautomation
 
 #allure generate .\allure-results -o .\allure-report --clean
 #allure open .

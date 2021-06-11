@@ -16,17 +16,28 @@
     "chromeTest": "npm run tests -- --browser chrome",
     "mocha": "npm run tests -- --reporter mochawesome"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "allure-commandline": "^2.13.8",
-    "cypress": "^7.5.0",
     "cypress-xpath": "^1.6.2",
     "prettier": "^2.3.0"
   },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.5.1",
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
     "mocha": "^8.4.0",
-    "mochawesome": "^6.2.2"
+    "mochawesome": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   }
 }
