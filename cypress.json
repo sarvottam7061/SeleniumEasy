@@ -2,7 +2,7 @@
   "baseUrl": "https://www.seleniumeasy.com/test/",
   "chromeWebSecurity": false,
   "defaultCommandTimeout": 8000,
-  "testFiles": "**/*.feature",
+  "testFiles": "**/*.js",
   "env": {
     "url": "https://rahulshettyacademy.com"
   },

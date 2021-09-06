@@ -5,7 +5,7 @@ describe('Home Test Page Selenium Easy', function()  {
     })
 
     it('Go to the Input Forms', function()  {
-    cy.get('#at-cv-lightbox-close').click()
+    cy.contains("No, thanks!").click()
     cy.get('.dropdown-toggle').contains('Input Forms').click()
     cy.get('.open > .dropdown-menu > :nth-child(5) > a').click()
 
