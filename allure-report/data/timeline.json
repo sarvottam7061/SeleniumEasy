@@ -2,27 +2,183 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "\"before all\" hook:  Visit Website for \"Go to the Input Forms\"",
-    "uid" : "2bd5da25a965f3bb",
+    "name" : "My FirstTest case",
+    "uid" : "7d34901ef38957ba",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1623328090870,
-      "stop" : 1623328090872,
-      "duration" : 2
+      "start" : 1630926315061,
+      "stop" : 1630926324629,
+      "duration" : 9568
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "My FirstTest case",
-    "uid" : "aef448f676cb43f2",
+    "uid" : "c98582cb38eff8ff",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623328097352,
-      "stop" : 1623328109016,
-      "duration" : 11664
+      "start" : 1630926287275,
+      "stop" : 1630926293685,
+      "duration" : 6410
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "3549870c4407f6c0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926049749,
+      "stop" : 1630926058520,
+      "duration" : 8771
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Fill Input Form & Submit",
+    "uid" : "c2809373d43c4e49",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926040894,
+      "stop" : 1630926044835,
+      "duration" : 3941
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "5c6406f1edb55bbb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926018941,
+      "stop" : 1630926021369,
+      "duration" : 2428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "9a5d9b9f8fd274c1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926298213,
+      "stop" : 1630926309672,
+      "duration" : 11459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "c7dfdec9e6cec2c8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926219316,
+      "stop" : 1630926246957,
+      "duration" : 27641
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "da56e7d7c4ae0ca7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926144853,
+      "stop" : 1630926190770,
+      "duration" : 45917
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Go to the Input Forms",
+    "uid" : "171b7d2be7d21c4c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926038368,
+      "stop" : 1630926040870,
+      "duration" : 2502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "92ce34852e5431b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926006116,
+      "stop" : 1630926006419,
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "86fdb380e0c04319",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926251532,
+      "stop" : 1630926260971,
+      "duration" : 9439
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "f3519fc84eddb4c4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926025692,
+      "stop" : 1630926027137,
+      "duration" : 1445
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "ab8e89a4022da74f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926265604,
+      "stop" : 1630926271722,
+      "duration" : 6118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "My FirstTest case",
+    "uid" : "ead4c084fb389016",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1630926276585,
+      "stop" : 1630926282888,
+      "duration" : 6303
     },
     "flaky" : false,
     "newFailed" : false,

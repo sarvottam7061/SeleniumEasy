@@ -4,14 +4,27 @@
   "children" : [ {
     "name" : "Home Test Page Selenium Easy",
     "children" : [ {
-      "name" : "\"before all\" hook:  Visit Website for \"Go to the Input Forms\"",
-      "uid" : "2bd5da25a965f3bb",
+      "name" : "Go to the Input Forms",
+      "uid" : "171b7d2be7d21c4c",
       "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1623328090870,
-        "stop" : 1623328090872,
-        "duration" : 2
+        "start" : 1630926038368,
+        "stop" : 1630926040870,
+        "duration" : 2502
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Fill Input Form & Submit",
+      "uid" : "c2809373d43c4e49",
+      "parentUid" : "453d11560fbfea47baa2a39e8f1beb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630926040894,
+        "stop" : 1630926044835,
+        "duration" : 3941
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,16 +32,33 @@
     } ],
     "uid" : "453d11560fbfea47baa2a39e8f1beb50"
   }, {
+    "name" : "My First Test Suite",
+    "children" : [ {
+      "name" : "My FirstTest case",
+      "uid" : "3549870c4407f6c0",
+      "parentUid" : "4a70f061f8f6781ca363ff17a1f2de48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630926049749,
+        "stop" : 1630926058520,
+        "duration" : 8771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a70f061f8f6781ca363ff17a1f2de48"
+  }, {
     "name" : "My Second Test Suite",
     "children" : [ {
       "name" : "My FirstTest case",
-      "uid" : "aef448f676cb43f2",
+      "uid" : "7d34901ef38957ba",
       "parentUid" : "c57048b8e24f0ea9ccaedd548ac0e41d",
       "status" : "passed",
       "time" : {
-        "start" : 1623328097352,
-        "stop" : 1623328109016,
-        "duration" : 11664
+        "start" : 1630926315061,
+        "stop" : 1630926324629,
+        "duration" : 9568
       },
       "flaky" : false,
       "newFailed" : false,
