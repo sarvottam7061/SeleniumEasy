@@ -9,32 +9,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aef448f676cb43f2",
+      "uid" : "7d34901ef38957ba",
       "status" : "passed",
       "time" : {
-        "start" : 1623328097352,
-        "stop" : 1623328109016,
-        "duration" : 11664
+        "start" : 1630926315061,
+        "stop" : 1630926324629,
+        "duration" : 9568
       }
     } ]
   },
-  "328ed46528bc4ebb72fe2fc9ff3308f3" : {
+  "e3e4f8c623e264bd122007b65619a7c5" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2bd5da25a965f3bb",
-      "status" : "failed",
-      "statusDetails" : "Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `C:\\Users\\843974\\AppData\\Local\\Cypress\\Cache\\7.4.0\\Cypress\\7.5.0\\SeleniumEasy\\cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+      "uid" : "3549870c4407f6c0",
+      "status" : "passed",
       "time" : {
-        "start" : 1623328090870,
-        "stop" : 1623328090872,
-        "duration" : 2
+        "start" : 1630926049749,
+        "stop" : 1630926058520,
+        "duration" : 8771
+      }
+    } ]
+  },
+  "1c88850130ed2d5f72857d00fe48936b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2809373d43c4e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630926040894,
+        "stop" : 1630926044835,
+        "duration" : 3941
+      }
+    } ]
+  },
+  "730c68b9efa6291451e262550bd2c678" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "171b7d2be7d21c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630926038368,
+        "stop" : 1630926040870,
+        "duration" : 2502
       }
     } ]
   }

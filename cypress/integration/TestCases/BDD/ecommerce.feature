@@ -18,6 +18,14 @@ Feature: End to end Ecommerce validation
     Then validate the forms behaviour
     And select the Shop Page
 
-
+#   "cypress-cucumber-preprocessor": {
+#   "nonGlobalStepDefinitions": true,
+#   "cucumberJson": {
+#     "generate": true,
+#     "outputFolder": "cypress/cucumber-json",
+#     "filePrefix": "",
+#     "fileSuffix": ".cucumber"
+#   }
+# },
 
 

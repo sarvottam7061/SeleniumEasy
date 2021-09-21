@@ -1,13 +1,24 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "453d11560fbfea47baa2a39e8f1beb50",
     "name" : "Home Test Page Selenium Easy",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4a70f061f8f6781ca363ff17a1f2de48",
+    "name" : "My First Test Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
