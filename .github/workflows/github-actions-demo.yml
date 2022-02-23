@@ -22,7 +22,6 @@ jobs:
         name: Build & push Docker image
         with:
           image: sarvo7061/CypressTesting
-          tags: v1, latest
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
